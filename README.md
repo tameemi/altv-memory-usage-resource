@@ -7,7 +7,7 @@ Just a simple resource that logs memory usage every 1 minute and displays on a g
 
 **NOTE:** This project has only been tested with Windows environments.
 
-### Editor Access
+### In-game graph
 * **F5** - Toggles the in-game graph.
 ![in game picture](https://i.imgur.com/O4Zr2fY.png)
 
