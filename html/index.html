@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+	<script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-streaming@1.8.0"></script>
+<style>
+    #memUsageChart {
+        background: linear-gradient(360deg, rgba(33, 33, 33, 0.7), rgba(66, 66, 66, 0.8), rgba(47, 47, 47, .9));
+        /* background: linear-gradient(120deg, #ed8b00, #ed8b00, #ffc107); */
+        width: 539px !important;
+        height: 269px !important;
+        margin: 0 auto;
+        display: block !important;
+    }
+    #memGraphContainer {
+        width: 100%;
+        height: 100%;
+        margin-top: 1rem;
+    }
+</style>
+</head>
+<body>
+	<div id="memGraphContainer">
+		<canvas id="memUsageChart"></canvas>
+	</div>
+    <script src="chart.js"></script>
+</body>
+</html>
