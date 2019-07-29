@@ -19,7 +19,7 @@ alt.on('keyup', (key) => {
     view = new alt.WebView("http://resources/memory-usage/html/index.html");
     view.on('graphReady',viewInit);
   }
-  else if (loaded && (key == 0x1B || key == 0x74)) {
+  else if (loaded && key == 0x74) {
     loaded = false;
     alt.emitServer('memGraphStatus', false);
     view.destroy();
