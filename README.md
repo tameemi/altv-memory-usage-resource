@@ -9,6 +9,6 @@ Just a simple resource that logs memory usage every 1 minute and displays on a g
 
 ### In-game graph
 * **F5** - Toggles the in-game graph.
-![in game picture](https://i.imgur.com/O4Zr2fY.png)
+![in game picture](https://i.imgur.com/HI5EFjU.png)
 
 memory usage log outputs to > output-data/memoryUsage.json
