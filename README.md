@@ -5,8 +5,6 @@ Just a simple resource that logs memory usage every 1 minute and displays on a g
 * Create a folder called "memory-usage" and place it in resources.
 * Edit server.cfg and add "memory-usage" to resources.
 
-**NOTE:** This project has only been tested with Windows environments.
-
 ### In-game graph
 * **F5** - Toggles the in-game graph.
 ![in game picture](https://i.imgur.com/HI5EFjU.png)
