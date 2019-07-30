@@ -28,10 +28,9 @@ function everyMinuteEvent(currentDate) {
         timestamp: Number(currentDate),
         rss,heapTotal,heapUsed,external
     };
-    let sMemInfo = JSON.stringify(memInfo);
     console.log((heapUsed / 1024 / 1024) + 'mb');
     const fileLocation = new URL('../output-data/memoryUsage.json', import.meta.url);
-    fs.appendFile(fileLocation, JSON.stringify(sMemInfo) + ',\r\n', (err) => {
+    fs.appendFile(fileLocation, JSON.stringify(memInfo) + ',\r\n', (err) => {
         if (err) throw err;
         //console.log('memory usage appended');
     })
